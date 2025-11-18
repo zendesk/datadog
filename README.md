@@ -6,6 +6,13 @@ This Action lets you send events and metrics to Datadog from a GitHub workflow.
 
 ## Usage
 
+> [!WARNING]
+> The default branch for this repository has been successfully renamed from `master` to `main`.
+> Please update any dependent workflows to use the new branch name (`@main`) or, preferably,
+> a specific version tag (e.g., `@v1`). While the old `@master` reference is temporarily maintained
+> as a pointer to the latest release 1.9.3 for backward compatibility, please plan to switch
+> your workflows as soon as possible, as the `@master` reference will be retired in the future.
+
 > [!IMPORTANT]
 > The action can send metrics and events to any Datadog site by setting the `api-url` param. When
 > omitted, it defaults to the US endpoint: `https://api.datadoghq.com`.
